@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CompuFlash.iml" filepath="$PROJECT_DIR$/CompuFlash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compuflash/compuflash.iml" filepath="$PROJECT_DIR$/compuflash/compuflash.iml" />
+    </modules>
+  </component>
+</project>
+

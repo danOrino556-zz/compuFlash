@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orange_rounded_corners_dark">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/binary"
+        android:layout_weight="0.08"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Loading Questions"
+        android:id="@+id/articleTextView"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/dark_grey_rounded_corners" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/yellowLayout"
+        android:background="@drawable/grey_rounded_corners"
+        android:layout_below="@id/articleTextView"
+        android:layout_marginBottom="15dp"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:indeterminate="false" />
+
+</LinearLayout>
